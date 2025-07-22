@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tP47AF" name="zjerm_iir" projectType="consoleapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="nLBzEI" name="zjerm_iir">
+    <GROUP id="{B1FAD41C-B94C-26ED-7081-5BB80923F629}" name="Source">
+      <FILE id="xC1a8P" name="Filters.cpp" compile="1" resource="0" file="Source/Filters.cpp"/>
+      <FILE id="eNwyGV" name="Filters.h" compile="0" resource="0" file="Source/Filters.h"/>
+      <FILE id="yromWK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="opoEkc" name="Reader.cpp" compile="1" resource="0" file="Source/Reader.cpp"/>
+      <FILE id="DVU536" name="Reader.h" compile="0" resource="0" file="Source/Reader.h"/>
+      <FILE id="hDGH3m" name="Writer.cpp" compile="1" resource="0" file="Source/Writer.cpp"/>
+      <FILE id="P7EYop" name="Writer.h" compile="0" resource="0" file="Source/Writer.h"/>
+    </GROUP>
+    <FILE id="TLnVNT" name="zjerm_audio.mp3" compile="0" resource="1" file="Source/zjerm_audio.mp3"/>
+    <FILE id="j47kuT" name="beat 2.wav" compile="0" resource="1" file="Source/beat 2.wav"/>
+    <FILE id="CdziSi" name="bridge orchestral.wav" compile="0" resource="1"
+          file="Source/bridge orchestral.wav"/>
+    <FILE id="avGhxJ" name="chorus wo shnrit.wav" compile="0" resource="1"
+          file="Source/chorus wo shnrit.wav"/>
+    <FILE id="Y1T9BL" name="chorus.wav" compile="0" resource="1" file="Source/chorus.wav"/>
+    <FILE id="gpRpYE" name="ciftelia bridge.wav" compile="0" resource="1"
+          file="Source/ciftelia bridge.wav"/>
+    <FILE id="zIWmdq" name="ciftelia intense after intro.wav" compile="0"
+          resource="1" file="Source/ciftelia intense after intro.wav"/>
+    <FILE id="R7K9ol" name="ciftelia intro.wav" compile="0" resource="1"
+          file="Source/ciftelia intro.wav"/>
+    <FILE id="s6kCCa" name="hook.wav" compile="0" resource="1" file="Source/hook.wav"/>
+    <FILE id="trc4ug" name="i_see_you_audio.mp3" compile="0" resource="1"
+          file="Source/i_see_you_audio.mp3"/>
+    <FILE id="ck8l0g" name="kola's monologue.wav" compile="0" resource="1"
+          file="Source/kola's monologue.wav"/>
+    <FILE id="sUQ86S" name="main chorus.wav" compile="0" resource="1" file="Source/main chorus.wav"/>
+    <FILE id="DiJUNh" name="monologue beat 2.wav" compile="0" resource="1"
+          file="Source/monologue beat 2.wav"/>
+    <FILE id="JZco0x" name="monologue beat.wav" compile="0" resource="1"
+          file="Source/monologue beat.wav"/>
+    <FILE id="WmSmUt" name="orchestra bridge last part.wav" compile="0"
+          resource="1" file="Source/orchestra bridge last part.wav"/>
+    <FILE id="U4v4vW" name="orchestra bridge.wav" compile="0" resource="1"
+          file="Source/orchestra bridge.wav"/>
+    <FILE id="aRC9DD" name="orchestra chorus.wav" compile="0" resource="1"
+          file="Source/orchestra chorus.wav"/>
+    <FILE id="gKKcaV" name="shnrit faded.wav" compile="0" resource="1"
+          file="Source/shnrit faded.wav"/>
+    <FILE id="MxdRUA" name="shnrit shnrit.wav" compile="0" resource="1"
+          file="Source/shnrit shnrit.wav"/>
+    <FILE id="YbPIPH" name="shnrit short.wav" compile="0" resource="1"
+          file="Source/shnrit short.wav"/>
+    <FILE id="Ecczuq" name="verse 1 n chorus.wav" compile="0" resource="1"
+          file="Source/verse 1 n chorus.wav"/>
+    <FILE id="FLuUpo" name="beat &amp; clap.wav" compile="0" resource="1"
+          file="Source/beat &amp; clap.wav"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Downloads/juce-8.0.8-windows (1)/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
